@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realestate selling</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+  
+
+</head>
+
+<body>
+    <header id="front">
+        <div>
+            <h2>Victroia Realestate Selling situation
+            </h2>
+
+        </div>
+
+    </header>
+    <section id="Describle1">
+        <h1>Introduction</h1>
+        <p>The housing industry in Victoria is booming as the population explodes and as society grows, this is when the type of house and the economy that it sells and brings in receives even more widespread attention. This data visualization will show us how Realestate, a Victorian software, sells properties and help us understand more about the Victorian housing industry.</p>
+       </section>
+    <div id="symbol_map", style = "float: left; margin-top: 50px; margin-left: 20px;" >
+    </div>
+    <script type="text/javascript">
+        var spec2 = "symbol_map.vg.json";
+        vegaEmbed('#symbol_map', spec2).then(function(result) {
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+      </script>
+      
+      <div >
+        <p> </p>
+       <p style = "font-size: 20px; text-align: center; padding-top: 180px;padding-right: 20px; background-color: #ebf2e5; padding-bottom: 120px; margin-top: 20px;  font-family:'Times New Roman', Times, serif;  color:#215a7e;">
+        As we can see from the map on the left, the closer to the centre of Melbourne's CBD, 
+        the more concentrated and numerous the flats are, as the CBD area is generally too large and small 
+        to sustain a large number of houses. As the CBD area is generally too large and narrow to sustain a 
+        large number of houses, the scattered suburbs are generally a little more house-like, while 
+        the majority of acres are in the more remote suburbs because they occupy a larger area and 
+        require more exclusive conditions.
+
+        
+    </p>
+      </div>
+
+   
+
+
+
+
+
+
+
+
+
+<div id="bar_chart"style = "float: left; margin-top: 50px; margin-left: 20px;">
+    </div>
+    <script type="text/javascript">
+        var spec2 = "test.json";
+        vegaEmbed('#bar_chart', spec2).then(function(result) {
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+      </script>
+
+<div >
+    <p> </p>
+   <p style = "font-size: 20px; text-align: center; padding-top: 180px;padding-right: 20px; background-color: #ebf2e5; padding-bottom: 120px; margin-top: 20px;  font-family:'Times New Roman', Times, serif;  color:#215a7e;">
+    We can see from the icons that the house is the most sold, the apartment is the second most sold and
+     the other parts are relatively less sold, especially the villa, lifestyle, apartment and land,
+      as these types of houses are more unique and less demanded, but on the contrary the map shows 
+      that the house is the most sold than the apartment, and in fact there is not much difference 
+      between the two sales, which means that there is a lot of overlap in the data of the CBD area
+
+    
+</p>
+  </div>
+<div id="bubble_chart"style = "float: left; margin-top: 50px; margin-left: 20px;">
+</div>
+<script type="text/javascript">
+    var spec2 = "interactive.json";
+    vegaEmbed('#bubble_chart', spec2).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+  </script>
+   
+    
+
+
+</body>
+
+</html>

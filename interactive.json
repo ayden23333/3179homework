@@ -1,0 +1,50 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 1000,
+    "height": 400,
+    "title": "Realestate selling",
+    "data": {
+      "url": "https://raw.githubusercontent.com/ayden23333/3179/main/_sold.csv"
+    },
+    "selection":  {
+      "propertyType_highlight": {
+      "type": "multi",
+      "fields": ["propertyType"],
+      "bind": "legend"
+  } },
+    "mark": "circle",
+    "encoding": {
+      "y": {
+        "field": "bedrooms",
+        "type": "nominal",
+        "title": "dateSold"
+  }, "x": {
+      
+        "field": "price",
+        "type": "quantitative"    
+        },
+      "color": {
+        "field": "propertyType",
+        "type": "nominal"},
+        "opacity": {
+          "condition": {"selection": "propertyType_highlight", "value": 1.0},
+          "value": 0.2},
+      "size":{
+        "field": "bathrooms",
+       "type": "nominal",
+       "scale": {
+        "type": "threshold"
+       
+      }
+      },
+      "tooltip": [
+        {"field": "postcode", "type": "quantitative"},
+        {"field": "bathrooms", "type": "quantitative", "format": ","},
+        {"field": "suburb", "type": "nominal"},
+        {"field": "streetAddress", "type": "nominal"}
+
+        
+   ]
+    }
+  }
+       

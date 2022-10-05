@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+}
+
+
+
+
+header,
+section,
+footer {
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+
+
+
+
+
+#front {
+
+    padding-top: 270px;
+    padding-bottom: 210px;
+    color: white;
+    background-image: url(image1.webp);
+    background-position: center center;
+    background-size: cover;
+}
+
+header h2 {
+    font-family: 'Rozha One', serif;
+    font-weight: normal;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 0px 1px 4px black;
+}
+
+
+
+
+
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+#Describle1 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:#215a7e;
+    background-color: #e3efd8;
+    text-align: center
+
+
+}
+#Describle1 h1{
+    font-size: 40px;
+}
+
+
+
+#demon {
+    overflow: hidden;
+}
+
+#demon figure {
+    width: 250px;
+    height: 250px;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.75);
+    overflow: hidden;
+}
+
+#demon figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    color: white;
+    text-shadow: 0px 1px 4px black;
+}
+
+
+#Mian {
+    padding-top: 220px;
+    padding-bottom: 230px;
+    color: #2f6872;
+    background-image: url(ice1.JPG);
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+}
+
+#Mian h1 {
+    font-size: 100px
+}
+
+#Mian1 {
+    padding-top: 220px;
+    padding-bottom: 230px;
+    color: #55962c;
+    background-image: url(ice2.JPG);
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+}
+
+#Mian1 h1 {
+    font-size: 100px
+}
+
+#Mian2 {
+    padding-top: 220px;
+    padding-bottom: 230px;
+    color: #e2fccc;
+    background-image: url(ice9.JPEG);
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+}
+
+#Mian2 h1 {
+    font-size: 100px
+}
+
+#Mian3 {
+    padding-top: 220px;
+    padding-bottom: 230px;
+    color: white;
+    background-image: url(ice4.jpg);
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+}
+
+#Mian3 h1 {
+    font-size: 100px
+}
+
+
+
+#Mian4 {
+    padding-top: 220px;
+    padding-bottom: 230px;
+    color: white;
+    background-image: url(ice6.jpg);
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+}
+
+#Mian4 h1 {
+    font-size: 100px
+}
+
+#Mian5 {
+    padding-top: 220px;
+    padding-bottom: 230px;
+    color:  #6b9444;
+    background-image: url(ice7.jpeg);
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+}
+
+#Mian5 h1 {
+    font-size: 100px
+}
+
+#Mian6 {
+    padding-top: 220px;
+    padding-bottom: 230px;
+    color: #f2e2e3;
+    background-image: url(ice3.JPG);
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+}
+
+#Mian6 h1 {
+    font-size: 100px
+}
+
+#Mian7 {
+    padding-top: 220px;
+    padding-bottom: 230px;
+    color: #7474f4;
+    background-image: url(ice8.jpg);
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+}
+
+#Mian7 h1 {
+    font-size: 100px
+}
+
+
+#demon2 {
+    overflow: hidden;
+}
+
+#demon2 figure {
+    width: 550px;
+    height: 360px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.75);
+
+
+}
+
+#demon2 figcaption {
+    color: #963939;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    font-family: cursive
+}
+
+
+
+
+#contact {
+    padding: 20px;
+    background-color: #e26e6e;
+}
+
+#contact address {
+
+    width: 600px;
+    background-color: #eeeeee;
+    display: table-cell;
+    padding: 60px 20px;
+    padding-left: 150px;
+    font-family: monospace;
+}
+
+#contact-form {
+
+    display: table-cell;
+    width: 800px;
+    padding: 60px 20px;
+    text-align: right;
+    background-color: #eeeeee;
+}
+
+#contact h3 {
+
+    text-align: center
+}
+
+#contact p {
+    margin-bottom: 0px;
+}
+
+#contact h3 {
+    font-size: 24px;
+    text-align: left;
+}
+
+#contact input {
+    width: 740px;
+    height: 30px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #999999;
+    margin-top: 20px;
+}
+
+#contact button {
+    background: #c95656;
+    border: 2px;
+    outline: 0;
+    border-radius: 50px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.75);
+    
+}
+
+
+
+footer {
+    background-color: #e26e6e;
+    color: white;
+    text-align: center;
+
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+footer h6,
+footer p {
+    margin-bottom: 1px;
+}
+
+footer h6 {
+    font-family: cursive;
+    font-weight: normal;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+footer h6 a {
+    color: white;
+}
+
+footer a {
+    color: #bbeeff;
+}

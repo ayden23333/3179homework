@@ -1,0 +1,16 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json", 
+    "width": 590,
+    "height": 300,
+    "data": {
+    "url": "https://raw.githubusercontent.com/ayden23333/3179/main/_sold.csv"
+    },
+    "mark": "bar", 
+    "encoding": {
+        "x": { "field": "propertyType", "type": "ordinal" },
+         "y": { "aggregate": "count", "field": "propertyType", "type": "ordinal"},
+         "color": {"value": "#6b9444"}
+         
+} 
+ 
+    }
